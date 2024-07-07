@@ -44,16 +44,21 @@ h1 {
     font-size: clamp(30px, 3vw, 50px);
 }
 
+.questions li {
+    margin-bottom: 35px;
+}
+
+.questions .last {
+    margin-bottom: 0px;
+}
+
 .questions li .question {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
-li #question-answer {
-    margin-bottom: 20px;
-}
+
 
 #button:hover {
     cursor: pointer;
